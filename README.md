@@ -106,6 +106,8 @@ komut bu şekilde olacaktır
 ./build/bin/erbie attach ./.erbie/erbie.ipc
 
 ```
+
+
 Docker Kurulumu
 
 ```
@@ -120,10 +122,6 @@ nano erbie_install.sh
 ```
 
 ```
-nano monitor.sh
-
-```
-```
 bash ./erbie_install.sh 
 
 ```
@@ -134,6 +132,10 @@ docker restart erbie
 
 Docker kurulumunda monitor scripti 8544 portuna göre
 
+```
+
+nano monitor.sh
+```
 ```
 #!/bin/bash
 
