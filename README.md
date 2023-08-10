@@ -175,6 +175,11 @@ main "$@"
 
 
 ```
+
+izinleri ayarlayalım
+```
+chmod +x monitor.sh
+```
 monitör başlatma
 
 ```
