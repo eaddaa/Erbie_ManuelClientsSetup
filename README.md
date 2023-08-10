@@ -104,14 +104,36 @@ find . -name erbie.ipc
 komut bu şekilde olacaktır
 ```
 ./build/bin/erbie attach ./.erbie/erbie.ipc
-```
 
-Docker kurulumunda monitor scripti 8544 portuna göre 
+```
+Docker Kurulumu
+
+```
+wget -O erbie_install.sh https://docker.erbie.io/erbie_install.sh && sudo bash erbie_install.sh
+
+```
+Portu 8544 ile değiştirmek için:
+
+```
+nano erbie_install.sh
+
+```
 
 ```
 nano monitor.sh
 
 ```
+```
+bash ./erbie_install.sh 
+
+```
+```
+docker restart erbie
+```
+
+
+Docker kurulumunda monitor scripti 8544 portuna göre
+
 ```
 #!/bin/bash
 
