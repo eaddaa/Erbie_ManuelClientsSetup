@@ -181,3 +181,14 @@ monitör başlatma
 bash ./monitor.sh
 ```
 
+Log kontrolü
+
+```
+docker logs -f erbie
+```
+
+çalışan portlara bakmak için
+
+```
+lsof -i -P -n | grep LISTEN
+```
